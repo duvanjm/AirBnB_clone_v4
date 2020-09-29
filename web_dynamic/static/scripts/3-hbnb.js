@@ -21,7 +21,6 @@ $.get(url, function (hbnb) {
   }
 });
 
-const URL = 'http://0.0.0.0:5001/api/v1/places_search/';
 $.ajax({
   type: 'POST',
   url: 'http://0.0.0.0:5001/api/v1/places_search/',
